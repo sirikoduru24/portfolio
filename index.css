@@ -23,11 +23,12 @@
   form {
       max-width: 800px;
   }
-  ul {
+  .work-projects {
     display: inline-block;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    margin-left: 15%;
+    transform: translateX(-15%);
   }
+
   #goToTopBtn {
     display: none; 
     position: fixed; 
@@ -41,4 +42,15 @@
     font-size: 1.3rem;
     font-weight: bold; 
     color:black;
+    }
+    @media (max-width: 767px) {
+      label {
+        text-align: left;
+      }
+    }
+
+    @media (min-width: 768px) {
+      label {
+        text-align: center;
+      }
     }
